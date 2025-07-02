@@ -1,0 +1,800 @@
+/*EOS*/
+/*div con fondo gris*/
+.fondo{ background-color:#EAEAEA; }
+
+/*texto a la derecha en input(para numero)*/
+.textDer { text-align:right; }
+
+/*color fuente unicamente div */
+div.error { color: red; font-weight: bold}
+.total { font-weight: bold  }
+
+a.orange {  font-weight: bold;  color: #FF6600;  font-size: 12px; }
+a.orange:hover {  font-weight: bold;  color: #FF6600;  font-size: 14px; text-decoration: none }
+a.orange:visited {  font-weight: bold;  color: #FF6600;  font-size: 12px}
+
+
+a.blak {  font-weight: bold;  color: #000;  font-size: 12px; }
+a.blak:hover {  font-weight: bold;  color: #000;  font-size: 14px; text-decoration: none }
+a.blak:visited {  font-weight: bold;  color: #000;  font-size: 12px}
+
+
+a.azul {  font-weight: bold;  color: blue;  font-size: 12px}
+a.azul:hover {  font-weight: bold;  color: blue;  font-size: 14px; text-decoration: none}
+a.azul:visited {  font-weight: bold;  color: blue;  font-size: 12px}
+
+a.verde {  font-weight: bold;  color: #006600;  font-size: 12px}
+a.verde:hover {  font-weight: bold;  color: #006600;  font-size: 14px; text-decoration: none}
+a.verde:visited {  font-weight: bold;  color: #006600;  font-size: 12px}
+
+a.maroon {  font-weight: bold;  color: #990000;  font-size: 12px}
+a.maroon:hover {  font-weight: bold;  color: #990000;  font-size: 14px; text-decoration: none}
+a.maroon:visited {  font-weight: bold;  color: #990000;  font-size: 12px}
+
+a.rojo {  font-weight: bold;  color: red;  font-size: 12px}
+a.rojo:hover {  font-weight: bold;  color: red;  font-size: 14px; text-decoration: none}
+a.rojo:visited {  font-weight: bold;  color: red;  font-size: 12px}
+
+
+a.black {  font-weight: bold;  color: black;  font-size: 12px; }
+a.black:hover {  font-weight: bold;  color: black;  font-size: 12px; text-decoration: none }
+a.black:visited {  font-weight: bold;  color: black;  font-size: 12px}
+
+a.orangeA {  font-weight: bold;  color: #FF6600;  font-size: 12px; }
+a.orangeA:hover {  font-weight: bold;  color: #FF6600;  font-size: 18px; text-decoration: none }
+a.orangeA:visited {  font-weight: bold;  color: #FF6600;  font-size: 12px}
+
+a.azulA {  font-weight: bold;  color: blue;  font-size: 12px}
+a.azulA:hover {  font-weight: bold;  color: blue;  font-size: 18px; text-decoration: none}
+a.azulA:visited {  font-weight: bold;  color: blue;  font-size: 12px}
+
+div.verdeA {  font-weight: bold;  color: #006600;  font-size: 12px}
+div.verdeA:hover {  font-weight: bold;  color: #006600;  font-size: 18px; text-decoration: none}
+div.verdeA:visited {  font-weight: bold;  color: #006600;  font-size: 12px}
+
+.fverde {color: #336600;}
+
+.fazul {color:#009966; }
+/*#FF6600 naranja*/
+.orange {font-weight: bold; color: #FF6600; }
+
+.naranja {
+     color: #FFFFFF;
+     background-color: #FF6600;
+     font-weight: bold;
+}
+.naranjac {
+     color: #FFFFFF;
+     background-color: #FA8258;
+     font-weight: bold;
+}
+
+.rojoclaro {
+     color: #000000;
+     background-color: #FFB8BC;
+     font-weight: bold;
+}
+.azulclaro {
+     color: #000000;
+     background-color: #B8ECFF;
+     font-weight: bold;
+}
+.rojofuerte {
+     color: #FFFFFF;
+     background-color: #FF1414;
+     font-weight: bold;
+}
+.verdeclaro {
+     color: #000000;
+     /*background-color: #B8F0EA;*/
+     background-color: #9EDFD9;
+     font-weight: bold;
+}
+
+.verde {font-weight: bold; color: #006600;}
+.azul {font-weight: bold; color: blue;}
+.maroon {font-weight: bold; color: #990000;}
+.rojo {font-weight: bold; color: red;}
+.azules {
+     color: #000000;
+     background-color: #0101DF;
+     font-weight: bold;
+}
+.azulpalido {
+     color: #000000;
+     background-color: #04CDFA;
+     font-weight: bold;
+}
+.morados {
+     color: #000000;
+     background-color: #DA81F5;
+     font-weight: bold;
+}
+.lila {
+     color: #000000;
+     background-color: #E8BAF3;
+     font-weight: bold;
+}
+.rojos {
+     color: #000000;
+     background-color: #FF3600;
+     font-weight: bold;
+}
+
+.amarillos {
+     color: #000000;
+     background-color: #FFCC33;
+     font-weight: bold;
+}
+.elver1 {
+     color: #000000;
+     background-color: #FF6600;
+     font-weight: normal;
+}
+.elver2 {
+     color: #000000;
+     background-color: #FFCC33;
+     font-weight: normal;
+}
+.elver3 {
+     color: #000000;
+     background-color: #00FF00;
+     font-weight: normal;
+}
+.verdes {
+     color: #000000;
+     background-color: #00FF00;
+     font-weight: bold;
+}
+.verdesc {
+     color: #000000;
+     background-color: #8FBC8F;
+     font-weight: bold;
+}
+
+.actacade {
+     color: 	#FFFFFF;
+     background-color: #FF3600;
+     font-weight: bold;
+}
+.tot-hora1 {
+     color: 	#FFFFFF;
+     background-color: #FF9933;
+     font-weight: bold;
+}
+.tot-hora2 {
+        color: 	#FFFFFF;
+	background-color: #8FBC8F;
+	font-weight: bold;
+        font-size: 12px;
+}
+.tot-hora3 {
+     color: 	#FFFFFF;
+	background-color: #66CCFF;
+	font-weight: bold;
+}
+.tot-hora4 {
+     color: 	#FFFFFF;
+	background-color: #990000;
+	font-weight: bold;
+}
+.tit-azul {
+        color: 	#FFFFFF;
+	background-color: #59C0F4;
+	font-weight: bold;
+        font-size: 12px;
+}
+.subtit-azul {
+        color: 	#000000;
+	background-color: #CEECF5;
+	font-weight: bold;
+        font-size: 11px;
+}
+.subtit-verdec {
+        color: 	#000000;
+	background-color: #BAE4DF;
+	font-weight: bold;
+        font-size: 11px;
+}
+.subtit-verdem {
+        color: 	#000000;
+	background-color: #7FE2D7;
+	font-weight: bold;
+        font-size: 11px;
+}
+.cabecera-formulario-lista-verde1 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        /*color: 	#000000;*/
+        color: #FFFFFF;
+	background-color: #8FC3BE;
+	font-weight: bold;
+        font-size: 13px;
+}
+.cabecera-formulario-lista-verde2 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        /*color: 	#000000;*/
+        color: #FFFFFF;
+	background-color: #7BB7B1;
+	font-weight: bold;
+        font-size: 13px;
+}
+.cabecera-formulario-lista-verde3 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        /*color: 	#000000;*/
+        color: #FFFFFF;
+	background-color: #65AAA3;
+	font-weight: bold;
+        font-size: 13px;
+}
+.cabecera-formulario-lista-verde4 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        /*color: 	#000000;*/
+        color: #FFFFFF;
+	background-color: #499E97;
+	font-weight: bold;
+        font-size: 13px;
+}
+.cabecera-formulario-lista-verde5{
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        /*color: 	#000000;*/
+        color: #FFFFFF;
+	background-color: #00867E;
+	font-weight: bold;
+        font-size: 13px;
+}
+
+.titulo-pancap {
+        color: 	#FFFFFF;
+	background-color: #00867E;
+	font-weight: bold;
+        font-size: 12px;
+}
+
+.formulario-subtit-verde2 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000; //#FFFFFF;  
+	background-color: #70EADE; //#8FC3BE;
+	font-weight: bold;
+        font-size: 12px;
+}
+.formulario-subtot-gris {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000; 
+	background-color: #C1C1C1; 
+	font-weight: bold;
+        font-size: 12px;
+}
+.fazulo {color: #3399FF;}
+
+.fazulo2 {color:#3366FF; }
+
+a.orange2 {  font-weight: bold;  color: #FF6600;  font-size: 12px; }
+a.orange2:hover {  font-weight: bold;  color: #FF6600;  font-size: 12px; text-decoration: none}
+a.orange2:visited {  font-weight: bold;  color: #FF6600;  font-size: 12px; }
+a.azul2 {  font-weight: bold;  color: blue;  font-size: 12px;}
+a.azul2:hover {  font-weight: bold;  color: blue;  font-size: 12px; text-decoration: none}
+a.azul2:visited {  font-weight: bold;  color: blue;  font-size: 12px;}
+a.verde2 {  font-weight: bold;  color: #006600;  font-size: 12px;}
+a.verde2:hover {  font-weight: bold;  color: #006600;  font-size: 12px; text-decoration: none}
+a.verde2:visited {  font-weight: bold;  color: #006600;  font-size: 12px;}
+a.maroon2 {  font-weight: bold;  color: #990000;  font-size: 12px; }
+a.maroon2:hover {  font-weight: bold;  color: #990000;  font-size: 12px; text-decoration: none}
+a.maroon2:visited {  font-weight: bold;  color: #990000;  font-size: 12; }
+.bmatri {text-align:center; border-width:thin;  border-color:#990000; font-size: 14px }
+.matutino {text-align:center; border-width:thin; border-color:transparent; } 
+.cajatex {text-align:justify; border-width:thin; border-color:transparent; } 
+.vespertino {text-align:center; border-width:thin; border-color:transparent;}
+.salones {text-align:center; border-width:thin; border-color:transparent; }
+
+.input_tex_gris {text-align:center; border-width:thin; border-color:transparent; background-color: #DDDDDD}
+.input_tex_gris_claro {text-align:center; border-width:thin; border-color:transparent; background-color: #F4F4F4}
+
+.input_tex_gris_clarol {text-align:left; border-width:thin; border-color:transparent; background-color: #F4F4F4}
+.input_tex_gris_claror {text-align:right; border-width:thin; border-color:transparent; background-color: #F4F4F4}
+
+.input_tex_rojo_clarol {text-align:left; border-width:thin; border-color:transparent; font-weight: bold; color: #FFFFFF; background-color: #FF0101}
+
+.input_texgrisl {font-family: Verdana, Arial, Helvetica, sans-serif;text-align:left; border-width:thin; border-color:transparent; font-weight: bold; font-size:14px; background-color: #DDDDDD }
+.input_textgrisol {text-align:left; border-width:thin; border-color:transparent; background-color: #DDDDDD}
+.input_textgrisoc {text-align:center; border-width:thin; border-color:transparent; background-color: #DDDDDD}
+.input_textgrisocn {text-align:center; border-width:thin; border-color:transparent; font-weight: bold; background-color: #DDDDDD}
+.input_textgrisor {font-family: Arial,sans-serif; text-align:right; border-width:thin; border-color:transparent; font-weight: bold; font-size:14px; background-color: #DDDDDD}
+
+.input_texgrisclarol {font-family: Verdana, Arial, Helvetica, sans-serif;text-align:left; border-width:thin; border-color:transparent; font-weight: bold; font-size:14px; background-color: #F4F4F4 }
+.input_texgrisclaroc {font-family: Verdana, Arial, Helvetica, sans-serif;text-align:center; border-width:thin; border-color:transparent; font-weight: bold; font-size:14px; background-color: #F4F4F4 }
+.input_texgrisclaror {font-family: Arial,sans-serif; text-align:right; border-width:thin; border-color:transparent; font-weight: bold; font-size:14px; background-color: #F4F4F4 }
+
+.input_texgris_clarole {text-align:left; border-width:thin; border-color:transparent; background-color: #F4F4F4; font-size: 10px}
+.input_texgris_claroce {text-align:center; border-width:thin; border-color:transparent; background-color: #F4F4F4; font-size: 10px}
+
+.input_resalta_folio {text-align:center; border-width:thin; border-color:transparent; font-weight: bold; background-color: #BEFFFF; font-size: 12px}
+
+.modulocor {text-align:center; border-width:thin; border-color:transparent; background-color:#EEEEEE;}
+.modulocap { border-width:thin; border-color:transparent; }
+.modulocod { text-align:right; border-width:thin; border-color:transparent; background-color:#EEEEEE;}
+.modulocapr { text-align:right; border-width:thin; border-color:transparent; }
+
+.calenda {text-align:center; border-width:thin; border-color:transparent; }
+
+.jcenter {text-align:center; border-width:thin; border-color:transparent;}
+.horarioaa {text-align:center;}
+.jcentfe {text-align:center; border-width:thin; border-color:transparent;}
+
+.textohrs {text-align:right; border-width:thin; border-color:transparent; }
+.enca-edita {
+   background-color: #87CEFA;
+   font-weight: bold;
+}
+.enca-edita2 {
+   background-color: #D3D3D3;
+   font-weight: bold;
+}
+.enca-edita3 {
+   background-color: #E6E6FA;
+   font-weight: bold;
+}
+.moneda {text-align:right; }
+
+.numericotxt {text-align:right; border-width:thin; border-color:transparent; }
+.numericotxtn {text-align:right; border-width:thin; border-color:transparent; font-weight: bold; background-color:#EEEEEE; }
+/************************************************
+	  COLORES PARA EQUIVALENCIA
+************************************************/
+
+.equiamari {
+     color: #000000;
+     background-color: #F2F5A9;
+     font-weight: bold;
+}
+
+.equiverde {
+     color: #000000;
+     /*background-color: #8FBC8F;*/
+     background-color:#A9F5BC;
+     font-weight: bold;
+}
+
+/************************************************
+	      TOOLTIP
+************************************************/
+.tinyTip{
+    width: 325px;
+    padding: 17px 0px 0px 0px;
+    display: block;
+    background: url(../images/tinyTip-top.png) 0px 0px no-repeat;
+}
+.tinyTip .content{
+    padding: 0px 15px 0px 15px;
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode";
+    color: #010101;
+    background: url(../images/tinyTip-content.png) 0px 0px repeat-y;
+}
+.tinyTip .bottom{
+    height: 47px;
+    background: url(../images/tinyTip-bottom.png) 0px 0px no-repeat;
+    font: 0px/0px sans-serif;
+}
+.buttons a, .buttons button{
+    display:block;
+    float:left;
+    margin:0 7px 0 0;
+    background-color:#f5f5f5;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:12px;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:5px 10px 6px 7px; /* Links */
+}
+.buttons button{
+    width:auto;
+    overflow:visible;
+    padding:4px 10px 3px 7px; /* IE6 */
+}
+.buttons button[type]{
+    padding:5px 10px 5px 7px; /* Firefox */
+    line-height:17px; /* Safari */
+}
+*:first-child+html button[type]{
+    padding:4px 10px 3px 7px; /* IE7 */
+}
+.buttons button img, .buttons a img{
+    margin:0 3px -3px 0 !important;
+    padding:0;
+    border:none;
+    width:16px;
+    height:16px;
+}
+
+/* STANDARD */
+
+button:hover, .buttons a:hover{
+    background-color:#dff4ff;
+    border:1px solid #c2e1ef;
+    color:#336699;
+}
+.buttons a:active{
+    background-color:#6299c5;
+    border:1px solid #6299c5;
+    color:#fff;
+}
+
+/* POSITIVE */
+
+button.positive, .buttons a.positive{
+    color:#529214;
+}
+.buttons a.positive:hover, button.positive:hover{
+    background-color:#E6EFC2;
+    border:1px solid #C6D880;
+    color:#529214;
+}
+.buttons a.positive:active{
+    background-color:#529214;
+    border:1px solid #529214;
+    color:#fff;
+}
+
+/* NEGATIVE */
+
+.buttons a.negative, button.negative{
+    color:#d12f19;
+}
+.buttons a.negative:hover, button.negative:hover{
+    background:#fbe3e4;
+    border:1px solid #fbc2c4;
+    color:#d12f19;
+}
+.buttons a.negative:active{
+    background-color:#d12f19;
+    border:1px solid #d12f19;
+    color:#fff;
+}
+
+/* REGULAR */
+
+button.regular, .buttons a.regular{
+    color:#336699;
+}
+.buttons a.regular:hover, button.regular:hover{
+    background-color:#dff4ff;
+    border:1px solid #c2e1ef;
+    color:#336699;
+}
+.buttons a.regular:active{
+    background-color:#6299c5;
+    border:1px solid #6299c5;
+    color:#fff;
+}
+
+/*sohow y hide*/
+.toggler { width: 500px; height: 200px; }
+#button { padding: .5em 1em; text-decoration: none; }
+#effect { width: 240px; height: 135px; padding: 0.4em; position: relative; }
+#effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+/* POSITIVE */
+a.agendav {  color:black; }
+a.agendav:hover {
+    background-color:#E6EFC2;
+    font-size: 13px;
+    border:1px solid #C6D880;
+    color:#529214;
+}
+a.agendav:visited {
+    /*background-color:#529214;*/
+    border:1px solid #529214;
+    color:#529214;
+}
+.vigencias {text-align:center; border-width:thin ; border-color:red }
+
+.horario_modalidad {text-align:center; border-width:thin ; border-color:red}
+
+.salon_modalidad {text-align:center; border-width:thin ; border-color:red}
+
+.hist-acadr {
+     color: 	#FFFFFF;
+     background-color: #FAAC58;
+     font-weight: bold;
+}
+.hist-acadrb {
+     color: 	#FFFFFF;
+     background-color: #F79F81;
+     font-weight: bold;
+}
+
+a.vdeefecto {  font-weight: bold; color: black;  font-size: 11px; }
+a.vdeefecto:hover {  font-weight: bold; font-size: 11px; color: #FFFFFF;  background-color: #00867E; text-decoration: none }
+a.vdeefecto:visited {  font-weight: bold;  color: #FF6600;  font-size: 11px}
+
+.amarillo-asubper {
+     color: #000000;
+     background-color: #FFF0C1;
+     font-weight: bold;
+}
+.verde-asubper {
+     color: #000000;
+     background-color: #71E200;
+     font-weight: bold;
+}
+
+table.allborders{
+        color: #000000;
+        font-family: calibri;
+        font-size: 7pt;
+        border-left: 1px solid #00867E;
+        border-right: 1px solid #00867E;
+        border-top: 1px solid #00867E;
+        border-bottom: 1px solid #00867E
+}
+/************************************************
+COLORES PARA VISOR DE INASISTENCIAS Y EVALUACIONES
+************************************************/
+
+.visamaric {
+     color: #000000;
+     background-color: #FCFF9A;
+     font-weight: bold;
+}
+.visverdec {
+     color: #000000;
+     background-color:#B8F7C8;
+     font-weight: bold;
+}
+.visnaranc {
+     color: #000000;
+     background-color:#FFBB83;
+     font-weight: bold;
+}
+.visrojoc {
+     color: #000000;
+     background-color:#FB8A8A;
+     font-weight: bold;
+}
+.visazulc {
+     color: #000000;
+     background-color:#C7E1F3;
+     font-weight: bold;
+}
+.vislila {
+     color: #000000;
+     background-color: #FCCBFF;
+     font-weight: bold;
+}
+.visrosa {
+     color: #000000;
+     background-color: #FF90C0;
+     font-weight: bold;
+}
+.visazulm {
+     color: #000000;
+     background-color: #80B1FF;
+     font-weight: bold;
+}
+.azulm {
+     color: #000000;
+     background-color: #01CCDF;
+     font-weight: bold;
+}
+.visverdem {
+     color: #000000;
+     background-color: #2FF761;
+     font-weight: bold;
+}
+.vismora {
+     color: #000000;
+     background-color: #A658FF;
+     font-weight: bold;
+}
+/**ELVER PARA RELOJ ALUMNOS*/
+.input_texreloj {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:center; 
+    border-width: thick;
+    border-color: #00CC00 ; 
+    font-weight: bold; 
+    font-size:20px; 
+    background-color: #F4F4F4 
+}
+
+#anuncio {
+    position:absolute;
+    padding:2px;
+    padding-top:8px;
+    width:150px;
+    visibility:hidden;
+    z-index:200;
+}
+#contcpa2 {
+    background: transparent;
+    //border:1px solid #000;
+    height:70px;
+    color:#fff;
+}
+
+/**ELVER PARA RELOJ ALUMNOS*/
+
+img.resp {
+    border: 5px solid #ccc;
+}
+img.resp:hover {
+    border: 7px solid green;
+}
+
+img.muestra {
+    border: 5px solid #000;
+}
+
+img.resp2 {
+    border: 7px solid green;
+}
+img.respc {
+    border: 5px solid #ccc;
+}
+/* ARA PARA CALIFICACIONES */
+.select-rojos {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #FF3600;
+    font-weight: bold;
+}
+
+.select-amarillos {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #FFCC33;
+    font-weight: bold;
+}
+.select-verdes {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #00FF00;
+    font-weight: bold;
+}
+
+/**SEA**/
+.input_greenl {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    border-width: thin;
+    border-color: #00CC00 ;
+    background-color: #F4F4F4;  
+    text-align:left;        
+}
+.input_green {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:center; 
+    border-width: thin;
+    border-color: #00CC00 ;
+    background-color: #F4F4F4 
+}
+
+.input_fasc_rojo {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:center; 
+    border-width: inherit; 
+    border-color: #F56068;
+    background-color: #F4F4F4;
+}
+.input_fasc_verde{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:center; 
+    border-width: inherit;
+    border-color: #00CC00;
+    background-color: #F4F4F4 
+}
+.input_fasc_amarillo{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:center; 
+    border-width: inherit;
+    border-color: #FFEF00;
+    background-color: #F4F4F4 
+}
+/** termina SEA**/
+/** SubdPers */
+.input_verdel {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:left;        
+    border-width: thin;
+    border-color: #00CC00;
+    background-color: #FFFFFF;
+}
+.input_verder {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:right;        
+    border-width: thin;
+    border-color: #00CC00;
+    background-color: #FFFFFF;  
+}
+.input_verdec {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:center; 
+    border-width: thin;
+    border-color: #00CC00;
+    background-color: #FFFFFF;
+}
+.input_verder_ronly {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:right; 
+    border-width: thin;
+    border-color: #00CC00;
+    background-color: #DDDDDD;
+}
+.input_verdec_ronly {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:center; 
+    border-width: thin;
+    border-color: #00CC00;
+    background-color: #DDDDDD;
+}
+.subtit-gris-claro {
+    font-weight: bold;
+    background: #F0F0F0;
+}
+.subtit-gris-obscu {
+    font-weight: bold;
+    background: #DDDDDD;
+}
+.input_importev{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:right;        
+    border-width: thin;
+    border-color: #00CC00;
+    background-color: #F0F0F0;  
+}
+.input_importer{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:right;        
+    border-width: thin;
+    border-color: #F56068;
+    background-color: #F0F0F0;
+}
+.input_importeg{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:right;        
+    border-width: thin;
+    border-color: #C1C1C1;
+    background-color: #F0F0F0;
+}
+.input_readonly_verdl {
+    text-align:left; 
+    border-width:thin; 
+    border-color:#00CC00 ;
+    background-color: #F4F4F4;
+}
+
+.signo { 
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+.input_text_grisclaroc {font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; text-align:center; border-width:thin; border-color:transparent; background-color: #FCFCFC}
+.input_text_captc_verde{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:center; 
+    border-width: thin;
+    border-color: #00CC00;
+    background-color: #FFFFFF; 
+}
+.input_text_captr_verde{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align:right; 
+    border-width: thin;
+    border-color: #00CC00;
+    background-color: #FFFFFF; 
+}
+
+.asigna-inscrita{
+	background-color: #E7FFAC;
+
+}
+

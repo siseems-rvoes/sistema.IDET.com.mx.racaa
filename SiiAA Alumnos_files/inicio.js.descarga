@@ -1,0 +1,49 @@
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+function nuevoAjax(){
+  var xmlhttp=false;
+  try {
+    //Firefox, Opera 8.0+, Safari
+    xmlhttp = new XMLHttpRequest();
+  } catch (e) {
+    //Internet Explorer
+  try
+    {
+      xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+    }
+  catch(e)
+    {
+  try
+    {
+      xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+  catch(e)
+   {
+      alert("Su navegador no soporta AJAX!")
+      return false;
+   }
+   }
+  }
+  if (!xmlhttp && typeof XMLHttpRequest != 'undefined') {
+    xmlhttp = new XMLHttpRequest();
+  }
+  return xmlhttp;
+}
+
+function cuenta_descarga(matricula,tipo,total){
+    
+    var contenedor = document.getElementById("condescarga");
+    ajax=nuevoAjax();
+    ajax.open("GET","descarga.php?matricula="+matricula+"&tipo="+tipo+"&total="+total,true);
+    ajax.onreadystatechange=function() {
+    if (ajax.readyState==4 && ajax.status == 200) {
+          contenedor.innerHTML = ajax.responseText;
+      }
+    }
+    ajax.send(null)
+    return true;
+     
+}
+
